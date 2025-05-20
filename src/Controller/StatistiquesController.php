@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class StatistiquesController extends AbstractController
 {
-    #[Route('/statistiques', name: 'app_statistiques')]
+    #[Route('/statistiques', name: 'statistiques')]
     public function index(): Response
     {
         return $this->render('registre/afficheur_de_statistiques/statistiques.html.twig', [

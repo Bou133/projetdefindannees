@@ -6,13 +6,13 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
-final class HistoriquesController extends AbstractController
+final class CategoriesprController extends AbstractController
 {
-    #[Route('/historiques', name: 'historiques')]
+    #[Route('/categoriespr', name: 'categoriespr')]
     public function index(): Response
     {
-        return $this->render('historiques/historique_achats.html.twig', [
-            'controller_name' => 'HistoriquesController',
+        return $this->render('categories/categoriespr/categoriespr.html.twig', [
+            'controller_name' => 'CategoriesprController',
         ]);
     }
 }

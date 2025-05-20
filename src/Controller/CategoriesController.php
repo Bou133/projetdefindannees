@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class CategoriesController extends AbstractController
 {
-    #[Route('/categoriesenfants', name: 'categoriesenfants')]
+    #[Route('/categoriesenfants', name: 'enfants')]
     public function index1(): Response
     {
         return $this->render('categories/afficheur_de_categories_enfants/Enfants.html.twig', [
@@ -16,7 +16,7 @@ final class CategoriesController extends AbstractController
         ]);
     }
 
-     #[Route('/categoriesfemmes', name: 'categoriesfemmes')]
+     #[Route('/categoriesfemmes', name: 'femmes')]
     public function index2(): Response
     {
         return $this->render('categories/afficheur_de_categories_femmes/Femmes.html.twig', [
@@ -24,7 +24,7 @@ final class CategoriesController extends AbstractController
         ]);
     }
 
-      #[Route('/categorieshommes', name: 'categorieshommes')]
+      #[Route('/categorieshommes', name: 'hommes')]
     public function index3(): Response
     {
         return $this->render('categories/afficheur_de_categories_hommes/Hommes.html.twig', [

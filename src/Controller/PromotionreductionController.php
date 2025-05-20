@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Attribute\Route;
 final class PromotionreductionController extends AbstractController
 {
     #[Route('/promotion', name: 'promotion')]
-    public function index(): Response
+    public function promotion(): Response
     {
         return $this->render('categories/afficheur_de_promotions/promotion.html.twig', [
             'controller_name' => 'PromotionreductionController',

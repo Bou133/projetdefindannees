@@ -50,67 +50,18 @@
 
                                             <nav  style="height:100% ; top:10% ; font-size: xx-small  ;background-color: black;  "  class="row">
                                         <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style= " background-color: orange ;   font-size: xx-small ; list-style-type: none; top:10% ; height:80% ;" >
-                                        <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12" class="dropdown"  > <a href="{{ path('commentaires') }}"  style=" border: black , solid , 3px;  margin: 5px ; background-color:orange ; color: black; left:0% ; font-size: 80%   ;   " data-toggle="dropdown"  >promotions<i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                        </a>
-                                            <ul class="dropdown-menu">
-                                            <li><a href="{{ path('commentaires') }}">nouveautés<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a href="{{ path('commentaires') }}" >réductions<i class="fa fa-percent" aria-hidden="true"></i>
-                                            </a></li>
-                                           
-                                            </ul>
-                                           </li>
-                                        <li class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"  class="dropdown"    > <a href="#"  style=" border: black , solid , 3px;   margin: 5px ; background-color:orange ; color: black; left:0%  ;  font-size: 80% ; " data-toggle="dropdown" >blog<i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="{{ path('commentaires') }}" >Commentaires<i class="fa fa-comments" aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a href="{{ path('commentaires') }}" >questionnaire<i class="fa fa-question-circle" aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a href="{{ path('commentaires') }}" >statistiques<i class="fa fa-bar-chart" aria-hidden="true"></i>
-                                            </a></li>
-                                            </ul>
-                                           </li> </li>
-                                        <li class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"  class="dropdown"    > <a href="#"  style=" border: black , solid , 3px; margin: 5px ; background-color:orange ; color: black; left:0%  ; font-size: 80% ;  " data-toggle="dropdown" >Catégories<i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="{{ path('commentaires') }}" >Hommes<i class="fa fa-male" aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a href="{{ path('commentaires') }}" >Femmes<i class="fa fa-female" aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a href="{{ path('commentaires') }}" >Enfants<i class="fa fa-child" aria-hidden="true"></i>
-                                            </a></li>
-                                            </ul>
-                                           </li> </li>
-                                        <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12"   class="dropdown"   > <a href="#"  style=" border: black , solid , 3px;  margin: 5px ; background-color:orange ; color: black; left:0%  ;  font-size: 80% ; " data-toggle="dropdown" > commandes<i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><ahref="{{ path('commentaires') }}" >panier<i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a href="{{ path('commentaires') }}">règlement<i class="fa fa-registered" aria-hidden="true"></i>
-                                            </a></li>
-                                           
-                                            </ul>
-                                           </li> </li>
-                                        <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12"  class="dropdown"    > <a href="#"  style=" border: black , solid , 3px; margin: 5px ; background-color:orange ; color: black; left:0%  ; font-size: 80%;   " data-toggle="dropdown" >connexion<i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="{{ path('commentaires') }}" >inscription<i class="fa fa-user" aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a href="{{ path('commentaires') }}" >connexion<i class="fa fa-connectdevelop" aria-hidden="true"></i>
-                                            </a></li>
-                                            <li><a href="{{ path('commentaires') }}">compte<i class="fa fa-address-book-o" aria-hidden="true"></i>
-                                            </a></li>
-                                            </ul>
-                                           </li> </li>
-                                        <li class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"   class="dropdown"    > <a href="#"  style=" border: black , solid , 3px; margin: 5px ; background-color:orange ; color: black; left:0%  ; font-size: 80% ;  " data-toggle="dropdown" >registre<i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="{{ path('commentaires') }}" >historique d'achats<i class="fa fa-calendar" aria-hidden="true"></i>
-                                            </a></li>
-                                           
-                                            </ul>
-                                           </li>  </li>
+                                        <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12"   > <a href="{{ path('categoriespr') }}"  style=" border: black , solid , 3px;  margin: 5px ; background-color:orange ; color: black; left:0% ; font-size: 80%   ;   "  > promotions <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                        </a></li>
+                                         <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12"   > <a href="{{ path('categorieshef') }}"  style=" border: black , solid , 3px;  margin: 5px ; background-color:orange ; color: black; left:0% ; font-size: 80%   ;   "  > categories <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                        </a></li>
+                                            <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12"   > <a href="{{ path('blog') }}"  style=" border: black , solid , 3px;  margin: 5px ; background-color:orange ; color: black; left:0% ; font-size: 80%   ;   "  > blog <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                        </a></li>
+                                         <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12"   > <a href="{{ path('utilisateur') }}"  style=" border: black , solid , 3px;  margin: 5px ; background-color:orange ; color: black; left:0% ; font-size: 80%   ;   "  > connexion <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                        </a></li>
+                                         <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12"   > <a href="{{ path('paniercommande') }}"  style=" border: black , solid , 3px;  margin: 5px ; background-color:orange ; color: black; left:0% ; font-size: 80%   ;   "> commandes <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                        </a></li>
+                                         <li class="col-lg-2 col-md-2 col-sm-12 col-xs-12"   > <a href="{{ path('historiques') }}"  style=" border: black , solid , 3px;  margin: 5px ; background-color:orange ; color: black; left:0% ; font-size: 80%   ;   "  > historiques<i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                        </a></li>
                                         </ul>
                                     </nav>   
                                            
@@ -202,37 +153,38 @@
         </div>
     
 </header>
+
     <footer  class = "container"   style=" position: absolute ; top:75% ; height:35% ; background-image: url({{asset('media/yellow.jpg')}}) ; background-repeat: repeat-y ; background-repeat: repeat-x; "  >
 
         <div class="row"  style="height:100%" >
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"  style="height:80%   ; " > 
                  <div class="row" style="height: 80%;">
                 <div  class="col-lg-11 col-md-11 col-sm-11 col-xs-11" style="  font-size: xx-small; "  >
-                   <ul  style="list-style-type: none ;" >
-                    <li><a href="#"  style=" background-color: rgb(13, 13, 14)  ; ">aide<i class="fa fa-yelp" aria-hidden="true"></i>
-                    </a></li>
-                    <li><a href="{{ path('commentaires') }}"  style=" background-color: rgb(14, 14, 15)  ;"  >suivre votre commande <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                    </a></li>
-                    <li><a href="#" style=" background-color: rgb(12, 12, 14)  ;" >annuler votre commande <i class="fa fa-shopping-basket" aria-hidden="true"></i> </a></li>
-                
-             
-                  
-                    <li> <a href="#"   style=" background-color: rgb(5, 5, 5)  ;" >condition génerales <i class="fa fa-book" aria-hidden="true"></i>
-                    </a></li>
-                    <li><a href="#"   style=" background-color: rgb(10, 10, 10)  ;" >localisation <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    </a></li>
-                   
-              
-                    <li> <a href="#" style=" background-color: rgb(12, 11, 11)"  >adresse émail <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                   <li><a href="#" style=" background-color: rgb(10, 8, 9)"  >adresse instagram <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#" style=" background-color: rgb(10, 10, 10)"  >adresse facebook <i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                        <li><a href="#" style=" background-color: rgb(15, 14, 15)"   >numéro de téléphone <i class="fa fa-phone" aria-hidden="true"></i></a></li>
-                        </ul>
+                   <ul  style="list-style-type: none ; color :antiquewhite ;" >
+                                        <li><a href="#"  style=" background-color: rgb(13, 13, 14)  ;  color :antiquewhite ; ">aide<i class="fa fa-yelp" aria-hidden="true"></i>
+                                        </a></li>
+                                        <li><a href="#" style=" background-color: rgb(14, 14, 15)  ;   color :antiquewhite ;"  >suivre votre commande <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                        </a></li>
+                                        <li><a href="#" style=" background-color: rgb(12, 12, 14)  ; color :antiquewhite ; " >annuler votre commande <i class="fa fa-shopping-basket" aria-hidden="true"></i> </a></li>
+                                    
+                                 
+                                      
+                                        <li> <a href="#"   style=" background-color: rgb(5, 5, 5)  ; color :antiquewhite ; " >condition génerales <i class="fa fa-book" aria-hidden="true"></i>
+                                        </a></li>
+                                        <li><a href="#"   style=" background-color: rgb(10, 10, 10)  ;  color :antiquewhite ;" >localisation <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        </a></li>
+                                       
+                                  
+                                        <li> <a href="#" style=" background-color: rgb(12, 11, 11);  color :antiquewhite ; "  >adresse émail <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                       <li><a href="#" style=" background-color: rgb(10, 8, 9) ;  color :antiquewhite ; "  >adresse instagram <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="#" style=" background-color: rgb(10, 10, 10) ; color :antiquewhite ; "  >adresse facebook <i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" style=" background-color: rgb(15, 14, 15) ; color :antiquewhite ; "   >numéro de téléphone <i class="fa fa-phone" aria-hidden="true"></i></a></li>
+                                            </ul>
                 </div>
                 </div>
             </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"  style="height:90% ; top:10% ;"  >
-            <div class="row"  style="height:90% ; font-size: xx-small;" >
+             <div class="row"  style="height:90% ; font-size: xx-small;" >
         <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style=" background-color: rgb(190, 184, 245)  ; color: black; "  >Bénin  <img src={{asset('media/drapeau-benin.jpg')}}  width="20px" height="20%"> </div> 
         <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style=" background-color: rgb(245, 246, 248)  ; color: black;"  >Burkina-Faso  <img src={{asset('media/1200px-Flag_of_Burkina_Faso.svg.png')}}  width="20%" height="20%">  </div>
         <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style=" background-color: rgb(171, 172, 169)  ; color: black;"  >Centrafique  <img src={{asset('media/drapeaudelacentrafrique.jpg')}}  width="20%" height="20%"></div> 
