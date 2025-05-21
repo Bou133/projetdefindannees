@@ -101,7 +101,7 @@
                                                        </div>
                                                     {% endfor %}
                                                          
-                                                        <div id="page_navigation"> </div>
+                                                        <div id="page_navigation1"style=" background-color: rgb(214, 252, 3) ;" > </div>
                                                                  
                                                         </div>
      <script src="assets/js/jquery.js"></script>
@@ -145,7 +145,7 @@ var number_of_pages = Math.ceil($('#content').children().
   nav += '" id="id' + i +'">';
  nav += '<a href="javascript:go_to_page(' + i +')">'+ (i + 1) +'</a>'; }
   nav += '<li><a href="javascript:next();">>></a></ul>';
-  $('#page_navigation').html(nav);
+  $('#page_navigation1').html(nav);
  
  set_display(0, show_per_page);
  });
@@ -162,7 +162,7 @@ var number_of_pages = Math.ceil($('#content').children().
 
 
 
-                               <footer  class = "container"   style=" position: absolute ; top:120% ; background-image: url({{asset('media/yellow.jpg')}}) ; background-repeat: repeat-y ; background-repeat: repeat-x; "  >
+                               <footer  class = "container"   style=" position: absolute ; top:110% ; background-image: url({{asset('media/yellow.jpg')}}) ; background-repeat: repeat-y ; background-repeat: repeat-x; "  >
 
         <div class="row"  style="height:100%" >
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"  style="height:80%   ; " > 

@@ -23,7 +23,7 @@ security:
                check_path: securitycontroller.login
 
             logout:
-               path: securitycontroller.logout   
+               path: security.logout   
 
             # activate different ways to authenticate
             # https://symfony.com/doc/current/security.html#the-firewall
